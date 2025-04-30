@@ -1,10 +1,12 @@
-﻿namespace part2
+﻿namespace task2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("try create 2 project in solution");
+            int X = 10;
+            int Y = 20;
+            Console.WriteLine($"Equation: {X} + {Y} = {X + Y:D}");
         }
     }
 }
